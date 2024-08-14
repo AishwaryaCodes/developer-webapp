@@ -1,13 +1,11 @@
 .technologies-div {
    margin: 0 2rem;
-  }
   
-  /* .icon-button i {
-    color: white;
-  } */
   .icon-button {
     padding: 0.5rem;
   }
+
+}
   
   .technologies-div {
     .icon-button i {

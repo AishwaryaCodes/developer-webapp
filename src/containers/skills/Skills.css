@@ -61,6 +61,7 @@
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
+    margin: 0 1rem;
   }
   .skills-main-div {
     flex-direction: column;
