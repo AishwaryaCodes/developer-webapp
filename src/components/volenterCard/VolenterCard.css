@@ -1,0 +1,21 @@
+.volunteer-desc-sec {
+    width: 60%;
+}
+
+.volunteer-img-sec {
+    width: 40%;   
+}
+
+.volenter-list-item {
+    margin: 0 5rem;
+}
+
+.volenter-card-title {
+    margin: 0;
+}
+
+.volenter-location{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}

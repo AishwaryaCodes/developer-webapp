@@ -1,0 +1,105 @@
+.main {
+  /* width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 4rem; */
+}
+.greet-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.gretting-main {
+  width: 90%;
+  padding: 0 10px;
+  margin: 0px auto;
+}
+
+.greeting-main {
+  display: flex;
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "emoji";
+}
+
+.about-me-text{
+  text-align: center;
+}
+
+.greeting-nickname {
+  font-size: 30px;
+  line-height: 0px;
+  font-family: "Google Sans Bold Italic";
+}
+
+.greeting-text-p {
+  font-size: 40px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
+.about-me-desc{
+  margin: 0 50px;
+}
+
+.greeting-image-div > * {
+  max-width: 100%;
+  width: 35rem;
+  height: 25rem;
+
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    /* font-size: 50px; */
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+
+    .resume-btn-div-home {
+      width: 100%;
+      display: flex;
+      justify-content: start;
+    }
+}

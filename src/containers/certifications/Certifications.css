@@ -1,0 +1,29 @@
+.certs-header {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "emoji";
+  text-align: center;
+}
+
+.certs-body-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1380px) {
+  .certs-header {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certs-body-div {
+    flex-direction: column;
+  }
+
+  .certs-header {
+    font-size: 30px;
+  }
+}
