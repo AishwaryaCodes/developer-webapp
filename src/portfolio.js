@@ -139,6 +139,16 @@ const technologiesIcon = [
     fontAwesomeIcon: "fa-git", 
   },
   {
+    name: "GitHub",
+    title: "GitHub",
+    fontAwesomeIcon: "fa-github", 
+  },
+  {
+    name: "Docker",
+    title: "Docker",
+    fontAwesomeIcon: "fa-docker", 
+  },
+  {
     name: "Figma",
     title: "Figma",
     fontAwesomeIcon: "fa-figma", 
@@ -206,8 +216,8 @@ const degrees = {
       alt_name: "Roosevelt University",
       duration: "2024 - Present",
       descriptions: [
-        "I completed CST 408 Advanced Algorithms, CST 467 Web-Based Databases, and CST 449 Advanced Architecture last semester.",
-        "Currently, I am enrolled in CST 421 Data Mining, CST 457 System Programming, and CST 411 Intelligent Systems, focusing on machine learning projects.",
+        "I studied CST 408 Advanced Algorithms, CST 467 Web-Based Databases, and CST 449 Advanced Architecture, Big Data in my first semester.",
+        "Currently, I am enrolled in CST 421 Data Mining, CST 457 System Programming, and CST 411 Intelligent Systems, with a focus on machine learning projects",
       ],
       website_link: "https://www.roosevelt.edu/",
     },
@@ -218,8 +228,8 @@ const degrees = {
       alt_name: "ZCOER, Pune",
       duration: "2014 - 2018",
       descriptions: [
-        "I have completed 04 year's of Bachelor's degree in Computer Science, where I studied fundamental software engineering subjects",
-        "such as Data Structures, Algorithms, Database Management Systems, Operating Systems, Computer Architecture, and Artificial Intelligence.",
+        "I have completed 04 year's of Bachelor's degree in Computer Science, where I studied fundamental of computer science, software engineering subjects",
+        "like Data Structures, Algorithms, Database Management Systems, Operating Systems, Computer Architecture, and Artificial Intelligence.",
       ],
       website_link: "https://zcoer.in/",
     },
@@ -230,28 +240,33 @@ const certifications = {
   certifications: [
     {
       title: "Machine Learning",
-      subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+        "",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
     {
       title: "Deep Learning",
-      subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
+      title: "Azure Data Engineer Associate",
       logo_path: "microsoft_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+        "https://www.credly.com/badges/2768f3ed-7379-4d9b-b570-ff99a99f91d6/linked_in_profile",
+      alt_name: "Microsoft",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Azure Fundamentals",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://www.credly.com/badges/f1608270-0b59-4c96-880e-ef7d775eca24/linked_in_profile",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },

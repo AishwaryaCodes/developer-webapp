@@ -64,6 +64,12 @@
   .fa-confluence{
     color: #0ACF83;
   }
+  .fa-github {
+    color: #181717;
+  }
+  .fa-docker{
+    color: #2496ED;
+  }
 
   .icon-button i:hover {
     background-color: transparent;

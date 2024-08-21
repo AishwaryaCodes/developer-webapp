@@ -22,9 +22,9 @@
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       "name": "Personal Website",
       "url": "",
-      "skills": "JavaScript | React JS",
-      "background" : "",
-      "projectLink" : "",
+      "skills": "React JS",
+      "background" : "./gretting.jpg",
+      "projectLink" : "https://aishwaryacodes.github.io/developer-webapp/",
       "isFork": false
     }
   ]
