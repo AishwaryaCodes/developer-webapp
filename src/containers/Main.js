@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
@@ -13,13 +13,13 @@ export default class Main extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-        <Route
-            path="/" 
+          <Route
+            path="/"
             exact
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
-            path="/home" 
+            path="/home"
             exact
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />

@@ -5,8 +5,8 @@
       "name": "Meal Finder Webapp",
       "url": "",
       "skills": "HTML | CSS | JavaScript",
-      "background" : "./f3.jpg",
-      "projectLink" : "https://aishwaryacodes.github.io/Meal_Finder/",
+      "background": "./food.jpg",
+      "projectLink": "https://aishwaryacodes.github.io/Meal_Finder/",
       "isFork": false
     },
     {
@@ -14,8 +14,8 @@
       "name": "Movie Recommend App",
       "url": "",
       "skills": "Python | Streamlit",
-      "background" : "./mov.jpg",
-      "projectLink" : "https://aishwaryacodes.github.io/Movie-Recommender-App/",
+      "background": "./mov.jpg",
+      "projectLink": "https://aishwaryacodes.github.io/Movie-Recommender-App/",
       "isFork": false
     },
     {
@@ -23,8 +23,8 @@
       "name": "Personal Website",
       "url": "",
       "skills": "React JS",
-      "background" : "./gretting.jpg",
-      "projectLink" : "https://aishwaryacodes.github.io/developer-webapp/",
+      "background": "./gretting.jpg",
+      "projectLink": "https://aishwaryacodes.github.io/developer-webapp/",
       "isFork": false
     }
   ]

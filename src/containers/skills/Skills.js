@@ -11,16 +11,21 @@ export default function Skills(props) {
     <div className="main">
       <div className="skills-header-div">
         <Fade bottom duration={2000} distance="20px">
-
-        <h1 className="greeting-text about-me-text" style={{ color: theme.text }}>
-                {greeting.aboutTitle}
-              </h1>
-              <p
-                className="greeting-text-p subTitle about-me-desc"
-                style={{ color: theme.secondaryText }}
-              >
-                {greeting.aboutMe}
-              </p>
+          <h1
+            className="greeting-text about-me-text"
+            style={{ color: theme.text }}
+          >
+            {greeting.aboutTitle}
+          </h1>
+          {/* <div className="my-img"> 
+              <img src="./gretting.jpg" alt="Description of the image"/>
+              </div> */}
+          <p
+            className="greeting-text-p subTitle about-me-desc"
+            style={{ color: theme.secondaryText }}
+          >
+            {greeting.aboutMe}
+          </p>
         </Fade>
       </div>
 
@@ -29,7 +34,7 @@ export default function Skills(props) {
           <h1 className="skills-header" style={{ color: theme.text }}>
             Technologies
           </h1>
-          <TechnoLogies/>
+          <TechnoLogies />
         </Fade>
       </div>
 
@@ -41,7 +46,6 @@ export default function Skills(props) {
           <CompetitiveSites logos={competitiveSites.competitiveSites} />
         </Fade>
       </div>
-
     </div>
   );
 }

@@ -3,6 +3,21 @@
   overflow: hidden;
 }
 
+.my-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+}
+
 .skills-header {
   font-size: 45px;
   font-weight: 600;
