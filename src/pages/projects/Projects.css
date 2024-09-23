@@ -70,9 +70,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem 1rem;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 25px;
+  margin: 2rem 6rem;
 }
 
 @media (max-width: 1380px) {

@@ -4,7 +4,7 @@
 const seo = {
   title: "Aishwarya's Portfolio",
   description:
-    "Masters in Computer Science | Software Developer | Web Developer | Women in Tech | Seeking Spring 2025 Internship Opportunities.",
+    "Computer Science Master's Student | Student Ambassador @Roosevelt University | Programmer Chair @GirlsWhoCode | 5 Years of IT Experience | Full-Stack Software Developer | Seeking Spring 2025 Internship Opportunities.",
   og: {
     title: "Aishwarya Kundur Portfolio",
     type: "website",
@@ -17,16 +17,16 @@ const greeting = {
   title: "Aishwarya Kundur",
   logo_name: "AKundur",
   subTitle:
-    "Masters in Computer Science | Software Developer | Web Developer | Women in Tech | Seeking Spring 2025 Internship Opportunities.",
+    "Computer Science Master's Student | Student Ambassador @Roosevelt University | Programmer Chair @GirlsWhoCode | 5 Years of IT Experience | Full-Stack Software Developer | Seeking Spring 2025 Internship Opportunities.",
   resumeLink:
-    "https://docs.google.com/document/d/1qcSgaim5Lz0HuoNB8Ro49OG50oQUoIvZ/edit?usp=sharing&ouid=115128601061020080300&rtpof=true&sd=true",
+    "https://drive.google.com/file/d/11GUaWFG1QaORXfzWibZWvojeEzsUr3u5/view?usp=sharing",
   portfolio_repository: "",
   githubProfile: "https://github.com/AishwaryaCodes",
   aboutTitle: "About Me!",
-  aboutMe: [
-    "Hi there! I’m Aishwarya, an independent and driven professional. After earning my Bachelor’s degree in Computer Science, I began my career as a Software Developer with multinational companies, where I worked with clients from Australia and The United States, building and maintaining strong professional relationships over 05 years in India. ",
+  aboutMeIntro:
+    "Hi there! I’m Aishwarya, An Enthusiastic Software Developer with a passion for solving complex problems and building innovative solutions. I hold a Bachelor’s Degree in Computer Science Engineering and have gained 5 years of Professional Experience working as Software Developer with global clients in Australia and the U.S. across top multinational companies like Cognizant and Mphasis.",
+  aboutMeCurrent:
     "Currently, I am pursuing a Master’s degree in Computer Science, focusing on areas like Intelligent Systems, Advanced Algorithms, and Web-Base Databases. I am also enhancing my skills in Data Structures and Algorithms (DSA) while actively working on Machine Learning projects.",
-  ],
 };
 
 const socialMediaLinks = [
@@ -44,13 +44,13 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
-  {
-    name: "YouTube",
-    title: "YouTube",
-    link: "https://www.youtube.com/@aish165_",
-    fontAwesomeIcon: "fa-youtube",
-    backgroundColor: "#FF0000",
-  },
+  // {
+  //   name: "YouTube",
+  //   title: "YouTube",
+  //   link: "https://www.youtube.com/@aish165_",
+  //   fontAwesomeIcon: "fa-youtube",
+  //   backgroundColor: "#FF0000",
+  // },
   {
     name: "Gmail",
     title: "Gmail",
@@ -207,26 +207,26 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
+      uniLogo: "./uniImg.jpg",
       title: "Roosevelt University, Chicago, Illinois",
       subtitle: "M.S. in Computer Science.",
       logo_path: "iu_logo.png",
       alt_name: "Roosevelt University",
       duration: "2024 - Present",
       descriptions: [
-        "I studied CST 408 Advanced Algorithms, CST 467 Web-Based Databases, and CST 449 Advanced Architecture, Big Data in my first semester.",
-        "Currently, I am enrolled in CST 421 Data Mining, CST 457 System Programming, and CST 411 Intelligent Systems, with a focus on machine learning projects",
+        "Relevant Coursework: CST 408 Advanced Algorithms, CST 467 Web-Based Databases, CST 421 Data Mining, CST 457 System Programming, and CST 411 Intelligent Systems.",
       ],
       website_link: "https://www.roosevelt.edu/",
     },
     {
+      uniLogo: "./uniZeal.png",
       title: "Zeal College of Engineering and Research, Pune, India",
       subtitle: "B.E. in Computer Science.",
       logo_path: "iiitk_logo.png",
       alt_name: "ZCOER, Pune",
       duration: "2014 - 2018",
       descriptions: [
-        "I have completed 04 year's of Bachelor's degree in Computer Science, where I studied fundamental of computer science, software engineering subjects",
-        "like Data Structures, Algorithms, Database Management Systems, Operating Systems, Computer Architecture, and Artificial Intelligence.",
+        "Relevant Coursework: Object-Oriented Programming, Operating System, Database Management System, Data Structure",
       ],
       website_link: "https://zcoer.in/",
     },
@@ -280,46 +280,49 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Part-time: Student Ambassador.",
+          title: "Part-time: Student Ambassador",
           company: "Roosevelt University, Office of Admissions",
           company_url: "https://www.roosevelt.edu/",
           duration: "April 2024 - Present",
           location: "CHICAGO",
+          logo: "./uniImg.jpg",
           roledescription: [
-            "Facilitated the admissions process for prospective students by providing support and guidance, addressing inquiries, and assisting with application procedures at Roosevelt University's Office of Admissions.",
-            "Led comprehensive campus tours at Roosevelt University's Chicago campus, showcasing facilities, sharing insights about student life, and highlighting academic opportunities to prospective students and their families.",
+            "Facilitated the admissions process and led campus tours at Roosevelt University, providing guidance to prospective students, addressing inquiries, and showcasing academic and student life opportunities.",
           ],
+          skills:
+            "Communication Skills | Leadership | Public Speaking | Problem-Solving",
           color: "#9b1578",
         },
         {
-          title: "Programmer Analyst at Cognizant Technology Solutions.",
+          title: "Programmer Analyst at Cognizant Technology Solutions",
           company: "Ernst and Young (EY) Auditing website",
           company_url:
             "https://www.ey.com/en_us/services/consulting/virtual-internal-auditor?WT.mc_id=10682535&AA.tsrc=paidsearch&msclkid=cb44e396ba8d186b779f8518046fc826",
           duration: "DEC 2021 - NOV 2023",
           location: "INDIA",
+          logo: "./cogni.jpeg",
           roledescription: [
-            "Designed and developed new features for a product that contained embedded applications and website, focusing on enhancing customer experience while maintaining and improving the existing code base.",
-            "Implemented and programmed RESTful APIs using Redux, Node.js & parsed JSON/XML data to establish communication between front-end and back-end services. Validated REST APIs with Postman for performance and security and Managed dependencies with NPM/ Yarn, resulting in a 20% improvement in response time.",
-            "Led & Managed a team of 3 junior developers and 2 interns, trained them in software development Life cycle and Agile methodologies & explain application overview enhancing their productivity",
-            "Attended daily Scrum meetings to track progress, raise obstacles, address dependencies, problem solving, and discuss successes. Collaborated with stakeholders, co-workers, cross-functional teams, and customers for regular code reviews, internal and client demos, leading to a 10% increase in project delivery speed in an agile environment.",
+            "Designed and developed new features for embedded applications and websites, enhancing customer experience and optimizing the existing code base.",
+            "Implemented and validated RESTful APIs using Redux, Node.js, and JSON/XML for efficient front-end and back-end communication, improving response time by 20%.",
+            "Led a team of 3 junior developers and 2 interns, trained them in Agile and SDLC practices, and collaborated with stakeholders, resulting in a 10% boost in project delivery speed.",
           ],
+          skills: "React.JS | Redux | Node.JS | SQL",
           color: "#fc1f20",
         },
 
         {
-          title: "Associate Software developer at Mphasis Limited Company.",
+          title: "Associate Software Developer at Mphasis Limited Company",
           company: "Bank of Queensland (BoQ) Banking Application",
           company_url: "https://www.boq.com.au/",
           duration: "FEB 2019 - DEC 2021",
           location: "INDIA",
+          logo: "./M1.jpg",
           roledescription: [
-            "Built and optimized the system architecture for dynamic single-page web applications (SPAs) and landing page templates using React JS, JavaScript, HTML, and CSS. Engineered accurate and exact designs UI/UX user experiences with high-quality responsive websites based on Figma wireframes",
-            "Assisted in developing server-side logic and integrated server-side functionalities with front-end components to facilitate data exchange and user interaction, boosting data processing efficiency by 20%.",
-            "Architected and supervised database schemas, upgraded queries, and executed CRUD operations using SQL and NoSQL databases, reducing query response times by 15%.",
-            "Completed delegated assignments on time and delivered error-free code by using existing large models and built reusable quality code and components, Elevating application performance",
-            "Associated with quality assurance software developers (QAs) / Testers to focus on defects and debug issues, sharpening application user interface quality and minimizing bug occurrence.",
+            "Built and optimized system architecture for SPAs and landing pages using React JS, JavaScript, HTML, and CSS, delivering high-quality responsive websites from Figma wireframes.",
+            "Developed server-side logic and integrated with front-end components, improving data processing efficiency by 20%, and optimized database schemas and queries, reducing response times by 15%.",
+            "Delivered reusable, error-free code, collaborated with QA testers to debug and minimize bugs, and consistently completed assignments on time, enhancing overall application performance.",
           ],
+          skills: "HTML | CSS | JavaScript | React.JS",
           color: "#fc1f20",
         },
       ],
@@ -336,13 +339,19 @@ const volunteership = {
           volunteerTitle: "Volunteered at Greater Chicago Food Depository,",
           location: "McCormick Place Convention Center.",
           description:
-            "Volunteered at the Greater Chicago Food Depository's Food Rescue event, collecting high-quality food for distribution to alleviate community food insecurity.",
+            "👉🏻 Volunteered at the Greater Chicago Food Depository and McCormick Place Convention Center, participating in the Food Rescue event to collect and distribute high-quality food, helping address community food insecurity.",
         },
         {
           volunteerTitle: "Student Volunteer at Laker Union Club,",
           location: "Roosevelt University Chicago Campus.",
           description:
-            "Volunteered at the Laker Union Club, where I contributed to the creation of no-sew fleece blankets for a community service project.",
+            "👉🏻 Volunteered at the Laker Union Club, Roosevelt University, contributing to a community service project by creating no-sew fleece blankets for those in need.",
+        },
+        {
+          volunteerTitle: "Programmer Chair at Girls Who Code,",
+          location: "Roosevelt University Chicago Campus.",
+          description:
+            "👉🏻 As Programming Chair at Girls Who Code, I develop and implement event schedules, manage budgets, recruit and oversee volunteers, and coordinate with other campus organizations. I also handle event marketing, evaluate event success, and report to leadership. Current event ideas include Boba and Boards and Arduino workshops.",
         },
       ],
     },

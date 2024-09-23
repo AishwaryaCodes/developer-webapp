@@ -1,21 +1,27 @@
 .volunteer-desc-sec {
-    width: 60%;
+  width: 60%;
+}
+
+.vol-container {
+  /* display: flex; */
 }
 
 .volunteer-img-sec {
-    width: 40%;   
+  width: 40%;
 }
 
 .volenter-list-item {
-    margin: 0 5rem;
+  display: flex;
+  margin: 0 5rem;
+  font-family: cursive;
 }
 
 .volenter-card-title {
-    margin: 0;
+  margin: 0;
 }
 
-.volenter-location{
-    margin: 0;
-    font-size: 1rem;
-    font-weight: 400;
+.volenter-location {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
 }

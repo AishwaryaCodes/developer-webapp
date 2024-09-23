@@ -17,14 +17,15 @@ export default function Skills(props) {
           >
             {greeting.aboutTitle}
           </h1>
-          {/* <div className="my-img"> 
-              <img src="./gretting.jpg" alt="Description of the image"/>
-              </div> */}
+          <div className="my-img">
+            <img src="./aish.jpg" alt="Description of the image" />
+          </div>
           <p
             className="greeting-text-p subTitle about-me-desc"
             style={{ color: theme.secondaryText }}
           >
-            {greeting.aboutMe}
+            <div className="aboutIntro">{greeting.aboutMeIntro}</div>
+            <div className="aboutCur">{greeting.aboutMeCurrent}</div>
           </p>
         </Fade>
       </div>

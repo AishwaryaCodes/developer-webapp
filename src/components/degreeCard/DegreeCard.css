@@ -5,6 +5,16 @@
   align-items: center;
 }
 
+.uni-img {
+  margin-right: 1rem;
+  img {
+    height: 6.5rem;
+    width: 6.5rem;
+    border: 0.1px solid transparent;
+    border-radius: 50%;
+  }
+}
+
 .card-title {
   font-family: "Google Sans Medium";
   font-size: 23px;
@@ -97,10 +107,9 @@
 }
 
 .visit-btn:hover {
-     p {
-      text-decoration: underline;
-     }
-
+  p {
+    text-decoration: underline;
+  }
 }
 
 .btn {

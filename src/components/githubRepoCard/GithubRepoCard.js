@@ -4,16 +4,16 @@ import { Fade } from "react-reveal";
 import Button from "../../components/button/Button";
 
 export default function GithubRepoCard({ repo, theme }) {
-
   const backgroundImageStyle = {
-    backgroundImage: `url(${repo.background})`
-   
+    backgroundImage: `url(${repo.background})`,
   };
   console.log(backgroundImageStyle);
 
   return (
     <div className="repo-card-div">
-      <div className="repo-background" style={backgroundImageStyle}> </div>
+      <div className="repo-background" style={backgroundImageStyle}>
+        {" "}
+      </div>
       <Fade bottom duration={2000} distance="40px">
         <div key={repo.id}>
           <div className="repo-name-div">
@@ -26,14 +26,14 @@ export default function GithubRepoCard({ repo, theme }) {
           </p>
           <div className="repo-details">
             <Button
-              text={"Demo"}
+              text={"GitHub"}
               className="project-button demo-btn"
               href={repo.projectLink}
               newTab={true}
               theme={theme}
             />
           </div>
-        </div>    
+        </div>
       </Fade>
     </div>
   );

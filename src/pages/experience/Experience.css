@@ -11,6 +11,24 @@
   margin-top: 80px;
 }
 
+.volenteerImg {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  img {
+    margin: 0 0.5rem;
+    height: 16rem;
+    width: 17rem;
+    border-radius: 0.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .volenteerImg {
+    display: none;
+  }
+}
+
 .basic-experience {
   margin-left: 5%;
   margin-right: 5%;
@@ -65,7 +83,8 @@
 }
 
 @media (max-width: 1380px) {
-  .experience-heading-text ,.volunteer-title {
+  .experience-heading-text,
+  .volunteer-title {
     font-size: 45px;
     margin-top: 80px;
   }
@@ -75,7 +94,8 @@
 }
 
 @media (max-width: 768px) {
-  .experience-heading-text, .volunteer-title  {
+  .experience-heading-text,
+  .volunteer-title {
     font-size: 30px;
     margin-top: 20px;
   }

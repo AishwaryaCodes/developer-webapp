@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
-import { Fade} from "react-reveal";
+import { Fade } from "react-reveal";
 
 class DegreeCard extends Component {
   render() {
@@ -9,13 +9,14 @@ class DegreeCard extends Component {
     return (
       <div className="degree-card">
         <Fade right duration={2000} distance="40px">
-          <div
-            className="card-body"
-          >
+          <div className="card-body">
             <div
               className="body-header"
               style={{ backgroundColor: theme.headerColor }}
             >
+              <div className="uni-img">
+                <img src={degree.uniLogo} alt="Description of the image" />
+              </div>
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>
                   {degree.title}

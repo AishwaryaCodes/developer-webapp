@@ -1,5 +1,5 @@
 .experience-accord {
-    margin: 50px;
+  margin: 5rem 6rem;
 }
 
 .accord-panel {
@@ -7,7 +7,10 @@
 }
 
 @media (max-width: 768px) {
+  .workExp-img {
+    display: none;
+  }
   .experience-accord {
-    margin: 20px;
+    margin: 3rem;
   }
 }

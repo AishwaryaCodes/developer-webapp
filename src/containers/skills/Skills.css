@@ -9,10 +9,11 @@
   justify-content: center;
   height: 100%;
   width: 100%;
+  margin-top: 2rem;
 
   img {
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 22rem;
     border-radius: 50%;
     margin-bottom: 2rem;
   }

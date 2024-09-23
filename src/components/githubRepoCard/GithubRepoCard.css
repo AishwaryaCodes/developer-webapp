@@ -10,7 +10,6 @@
   flex: 1 1 25%;
 } */
 
-
 .repo-card-div {
   position: relative;
   color: rgb(88, 96, 105);
@@ -21,7 +20,7 @@
   flex: 1 1 25%;
   overflow: hidden; /* Ensure content doesn't overflow */
 
-  .react-reveal{
+  .react-reveal {
     height: 12rem;
   }
 }
@@ -35,23 +34,21 @@
   /* background-image: url(../../assests/images/mealWebsiteImg.png); */
   background-size: cover;
   background-position: center;
-  filter: blur(2px);
+  filter: blur(1px);
   z-index: -1;
 }
-
 
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
 
-
 .demo-btn {
   width: 100%;
   justify-content: end;
   cursor: pointer;
- a{
-  font-size: 12px;
-}
+  a {
+    font-size: 12px;
+  }
 }
 
 .repo-stats {
@@ -89,8 +86,7 @@
   width: 18rem;
   height: auto;
   position: relative;
-    z-index: 1;
-
+  z-index: 1;
 }
 
 .repo-svg {

@@ -172,11 +172,17 @@ class Experience extends Component {
         </div>
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
         <div>
-        <h2 className="volunteer-title">{volunteership.title}</h2>
-        {volunteership.sections[0].volunteers.map((volunteer, index) => (
-          <VolenterCard key={index} volunteer={volunteer} />
-        ))}
-      </div>
+          <h2 className="volunteer-title">{volunteership.title}</h2>
+          <div className="volenteerImg">
+            <img src="./vol1.jpeg" alt="Description of the image" />
+            <img src="./vol2.jpeg" alt="Description of the image" />
+            <img src="./vol3.jpeg" alt="Description of the image" />
+            <img src="./gwc.png" alt="Description of the image" />
+          </div>
+          {volunteership.sections[0].volunteers.map((volunteer, index) => (
+            <VolenterCard key={index} volunteer={volunteer} />
+          ))}
+        </div>
         <h1 className="experience-heading-text" style={{ color: theme.text }}>
           {achievements.title}
         </h1>

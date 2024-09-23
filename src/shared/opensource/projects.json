@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
+      "id": "",
       "name": "Meal Finder Webapp",
       "url": "",
       "skills": "HTML | CSS | JavaScript",
@@ -10,7 +10,7 @@
       "isFork": false
     },
     {
-      "id": "R_kgDOG_vYHA",
+      "id": "",
       "name": "Movie Recommend App",
       "url": "",
       "skills": "Python | Streamlit",
@@ -19,12 +19,30 @@
       "isFork": false
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+      "id": "",
       "name": "Personal Website",
       "url": "",
       "skills": "React JS",
       "background": "./gretting.jpg",
       "projectLink": "https://aishwaryacodes.github.io/developer-webapp/",
+      "isFork": false
+    },
+    {
+      "id": "",
+      "name": "Text To Image Generator",
+      "url": "",
+      "skills": "JavaScript | Hugging Face Model",
+      "background": "./hfai.jpeg",
+      "projectLink": "https://github.com/AishwaryaCodes/Text-to-Image-Generator",
+      "isFork": false
+    },
+    {
+      "id": "",
+      "name": "Face Mask Detection",
+      "url": "",
+      "skills": "Python",
+      "background": "./faceM.jpg",
+      "projectLink": "https://github.com/AishwaryaCodes?tab=repositories",
       "isFork": false
     }
   ]
