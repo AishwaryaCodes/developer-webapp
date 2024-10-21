@@ -185,22 +185,22 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/u/akundur/",
     },
-    // {
-    //   siteName: "HackerRank",
-    //   iconifyClassname: "simple-icons:hackerrank",
-    //   style: {
-    //     color: "#2EC866",
-    //   },
-    //   profileLink: "https://www.hackerrank.com/profile/akundur17",
-    // },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
       style: {
-        color: "#5B4638",
+        color: "#2EC866",
       },
-      profileLink: "https://www.codechef.com/users/akundur_17",
+      profileLink: "https://www.hackerrank.com/profile/akundur17",
     },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/akundur_17",
+    // },
   ],
 };
 

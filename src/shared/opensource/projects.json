@@ -2,15 +2,6 @@
   "data": [
     {
       "id": "",
-      "name": "Meal Finder Webapp",
-      "url": "",
-      "skills": "HTML | CSS | JavaScript",
-      "background": "./food.jpg",
-      "projectLink": "https://aishwaryacodes.github.io/Meal_Finder/",
-      "isFork": false
-    },
-    {
-      "id": "",
       "name": "Movie Recommend App",
       "url": "",
       "skills": "Python | Streamlit",
@@ -31,7 +22,7 @@
       "id": "",
       "name": "Text To Image Generator",
       "url": "",
-      "skills": "JavaScript | Hugging Face Model",
+      "skills": "JavaScript | Hugging Face Model API",
       "background": "./hfai.jpeg",
       "projectLink": "https://github.com/AishwaryaCodes/Text-to-Image-Generator",
       "isFork": false
@@ -42,6 +33,24 @@
       "url": "",
       "skills": "Python",
       "background": "./faceM.jpg",
+      "projectLink": "https://github.com/AishwaryaCodes?tab=repositories",
+      "isFork": false
+    },
+    {
+      "id": "",
+      "name": "Meal Finder Webapp",
+      "url": "",
+      "skills": "HTML | CSS | JavaScript",
+      "background": "./food.jpg",
+      "projectLink": "https://aishwaryacodes.github.io/Meal_Finder/",
+      "isFork": false
+    },
+    {
+      "id": "",
+      "name": "WEB Development Projects",
+      "url": "",
+      "skills": "HTML | CSS | JavaScript",
+      "background": "./fedimg.jpg",
       "projectLink": "https://github.com/AishwaryaCodes?tab=repositories",
       "isFork": false
     }

@@ -38,6 +38,10 @@
   z-index: -1;
 }
 
+.repo-background:hover {
+  filter: blur(0px);
+}
+
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
@@ -98,11 +102,16 @@
   text-align: left;
   color: rgb(36, 41, 46) !important;
   font-family: "Google Sans Regular";
-  font-size: 32px;
+  font-size: 14px;
   font-weight: 900;
   letter-spacing: 2px;
   overflow: hidden;
   margin: 0;
+  cursor: pointer;
+}
+
+.repo-name:hover {
+  text-decoration: underline;
 }
 
 .repo-star-svg {

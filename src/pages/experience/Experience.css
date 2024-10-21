@@ -12,14 +12,29 @@
 }
 
 .volenteerImg {
+  position: relative;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   margin: 1rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  will-change: transform, opacity;
   img {
-    margin: 0 0.5rem;
+    margin: 0 1rem;
     height: 16rem;
     width: 17rem;
-    border-radius: 0.4rem;
+    transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+    will-change: transform, filter, opacity;
+    cursor: pointer;
+  }
+
+  .volenteerImg:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
   }
 }
 
