@@ -170,20 +170,20 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        {/* <ExperienceAccordion sections={experience["sections"]} theme={theme} /> */}
         <div>
           <h2 className="volunteer-title">{volunteership.title}</h2>
           <div className="volenteerImg">
             <img src="./vol1.jpeg" alt="Description of the image" />
             <img src="./vol2.jpeg" alt="Description of the image" />
             <img src="./vol3.jpeg" alt="Description of the image" />
-            <img src="./gwc.png" alt="Description of the image" />
+            <img src="./GWC_AISH.PNG" alt="Description of the image" />
           </div>
           {volunteership.sections[0].volunteers.map((volunteer, index) => (
             <VolenterCard key={index} volunteer={volunteer} />
           ))}
         </div>
-        <h1 className="experience-heading-text" style={{ color: theme.text }}>
+        {/* <h1 className="experience-heading-text" style={{ color: theme.text }}>
           {achievements.title}
         </h1>
         <ul
@@ -195,8 +195,9 @@ class Experience extends Component {
               {item}
             </li>
           ))}
-        </ul>
-        <h1 className="experience-heading-text" style={{ color: theme.text }}>
+        </ul> */}
+
+        {/* <h1 className="experience-heading-text" style={{ color: theme.text }}>
           {participations.title}
         </h1>
         <ul
@@ -208,7 +209,7 @@ class Experience extends Component {
               {item}
             </li>
           ))}
-        </ul>
+        </ul> */}
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>

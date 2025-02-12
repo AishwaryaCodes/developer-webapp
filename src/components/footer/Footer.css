@@ -7,4 +7,12 @@
 
 .footer-div {
   margin-top: 10rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f4ecec; /* Adjust as needed */
+  color: white; /* Text color */
+  text-align: center;
+  z-index: 1000;
 }

@@ -7,17 +7,25 @@ export default function GithubRepoCard({ repo, theme }) {
   const backgroundImageStyle = {
     backgroundImage: `url(${repo.background})`,
   };
-  console.log(backgroundImageStyle);
+
+  const handleClick = (projectLink) => {
+    // Adding delay of 2 seconds (2000ms)
+    setTimeout(() => {
+      window.open(projectLink, "_blank");
+    }, 2000); // Change the delay time as needed
+  };
 
   return (
     <div className="repo-card-div">
-      <div className="repo-background" style={backgroundImageStyle}>
-        {" "}
-      </div>
+      <div className="repo-background" style={backgroundImageStyle}></div>
       <Fade bottom duration={2000} distance="40px">
         <div key={repo.id}>
           <div className="repo-name-div">
-            <p className="repo-name" style={{ color: theme.text }}>
+            <p
+              className="repo-name"
+              style={{ color: theme.text }}
+              onClick={() => handleClick(repo.url)} // Call handleClick with the project link
+            >
               {repo.name}
             </p>
           </div>

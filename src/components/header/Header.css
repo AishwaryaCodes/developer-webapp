@@ -1,10 +1,17 @@
 /* header */
 
+.Fixheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f4ecec;
+  text-align: center;
+  z-index: 1000;
+}
+
 .header {
   display: block;
-  max-width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
 }
 
 .header ul {
@@ -20,9 +27,13 @@
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 10px 14px;
   /* color: black; */
   text-decoration: none;
+}
+
+.header li:hover {
+  font-weight: bold;
 }
 
 .header li a:hover,
@@ -31,21 +42,20 @@
 }
 
 .header .logo {
+  font-family: "Agustina Regular";
   display: block;
   float: left;
-  font-size: 1.5em;
+  font-size: 1.6rem;
   text-decoration: none;
-  margin-top: 10px;
+  padding: 0 1rem;
   line-height: normal;
 }
-.header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  padding: 0 10px;
-  /* color: #55198b; */
+
+.logo-name {
+  padding-top: 2px;
 }
 
-.logo-name:hover{
+.logo-name:hover {
   text-shadow: 2px 2px 2px #ac9797;
 }
 
@@ -58,6 +68,7 @@
 .header .menu {
   clear: both;
   max-height: 0;
+  padding: 0 1rem;
   transition: max-height 0.2s ease-out;
 }
 

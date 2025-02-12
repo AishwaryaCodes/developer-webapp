@@ -9,28 +9,34 @@ export default function Skills(props) {
   const theme = props.theme;
   return (
     <div className="main">
-      <div className="skills-header-div">
-        <Fade bottom duration={2000} distance="20px">
-          <h1
+      {/* <h1
             className="greeting-text about-me-text"
             style={{ color: theme.text }}
           >
             {greeting.aboutTitle}
-          </h1>
-          <div className="my-img">
-            <img src="./aish.jpg" alt="Description of the image" />
-          </div>
+          </h1> */}
+
+      {/* < div className="skills-header-div">     
+        <Fade bottom duration={2000} distance="20px">
+          <section className="aboutMe-text">
           <p
             className="greeting-text-p subTitle about-me-desc"
             style={{ color: theme.secondaryText }}
           >
             <div className="aboutIntro">{greeting.aboutMeIntro}</div>
             <div className="aboutCur">{greeting.aboutMeCurrent}</div>
+            <div className="aboutMePersonal">{greeting.aboutMePersonal}</div>
           </p>
-        </Fade>
-      </div>
+          </section>
 
-      <div className="skills-header-div">
+          <section className="aboutMe-img">
+            <img src="./aishPic.jpg" alt="Description of the image" />
+          </section>
+
+        </Fade>
+      </div> */}
+
+      {/* <div className="skills-header-div">
         <Fade bottom duration={2000} distance="20px">
           <h1 className="skills-header" style={{ color: theme.text }}>
             Technologies
@@ -46,7 +52,7 @@ export default function Skills(props) {
           </h1>
           <CompetitiveSites logos={competitiveSites.competitiveSites} />
         </Fade>
-      </div>
+      </div> */}
     </div>
   );
 }

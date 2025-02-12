@@ -3,13 +3,21 @@
   overflow: hidden;
 }
 
-.my-img {
+.skills-header-div {
+  display: flex;
+  margin: 0 2rem 0 0;
+}
+
+.aboutMe-text {
+  width: 70%;
+}
+
+.aboutMe-img {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 100%;
-  margin-top: 2rem;
+  width: 30%;
 
   img {
     height: 20rem;

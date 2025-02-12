@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -9,8 +8,6 @@ import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {
@@ -28,12 +25,33 @@ class Contact extends Component {
                 >
                   {ContactData["title"]}
                 </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {ContactData["description"]}
-                </p>
+
+                <div className="contact-text contact-header-detail-text subTitle">
+                  {contactPageData.contactSection.description.map(
+                    (text, index) => {
+                      if (
+                        index ===
+                        contactPageData.contactSection.description.length - 1
+                      ) {
+                        return (
+                          <p key={index} style={{ color: theme.secondaryText }}>
+                            {text}{" "}
+                            <a href="mailto:akundur17@gmail.com">
+                              akundur17@gmail.com
+                            </a>
+                          </p>
+                        );
+                      } else {
+                        return (
+                          <p style={{ color: theme.secondaryText }} key={index}>
+                            {text}{" "}
+                          </p>
+                        );
+                      }
+                    }
+                  )}
+                </div>
+
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
@@ -46,46 +64,7 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
-          <Fade bottom duration={1000} distance="40px">
-            <div className="address-heading-div">
-              <div className="address-heading-text-div">
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {addressSection["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {addressSection["subtitle"]}
-                </p>
-                <h1
-                  className="address-heading-text"
-                  style={{ color: theme.text }}
-                >
-                  {phoneSection["title"]}
-                </h1>
-                <p
-                  className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
-                >
-                  {phoneSection["subtitle"]}
-                </p>
-                <div className="address-btn-div">
-                  <Button
-                    text="View on Google Maps"
-                    newTab={true}
-                    href={addressSection.location_map_link}
-                    theme={theme}
-                  />
-                </div>
-              </div>
-            </div>
-          </Fade>
         </div>
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
     );

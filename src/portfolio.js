@@ -4,7 +4,7 @@
 const seo = {
   title: "Aishwarya's Portfolio",
   description:
-    "Computer Science Master's Student | Student Ambassador @Roosevelt University | Programmer Chair @GirlsWhoCode | 5 Years of IT Experience | Full-Stack Software Developer | Seeking Spring 2025 Internship Opportunities.",
+    "Master's in Computer Science (Graduating May 2025) | 5+ Years of IT Experience | Web Developer | UX Researcher | Frontend Expert | Former Associate at Cognizant & Mphasis | Seeking Full-Time UI/UX Research Roles in 2025.",
   og: {
     title: "Aishwarya Kundur Portfolio",
     type: "website",
@@ -17,32 +17,34 @@ const greeting = {
   title: "Aishwarya Kundur",
   logo_name: "AKundur",
   subTitle:
-    "Computer Science Master's Student | Student Ambassador @Roosevelt University | Programmer Chair @GirlsWhoCode | 5 Years of IT Experience | Full-Stack Software Developer | Seeking Spring 2025 Internship Opportunities.",
+    "CS Master’s Student (Graduating May 2025) | 5+ Years of Tech Experiences | UX Researcher & Designer| Web Developer | Seeking Full-Time UI/UX Research Roles in 2025.",
   resumeLink:
-    "https://drive.google.com/file/d/11GUaWFG1QaORXfzWibZWvojeEzsUr3u5/view?usp=sharing",
+    "https://drive.google.com/file/d/183v91IcJlNcGBYp36fIaezYyOxG8fng7/view?usp=sharing",
   portfolio_repository: "",
   githubProfile: "https://github.com/AishwaryaCodes",
   aboutTitle: "About Me!",
   aboutMeIntro:
-    "Hi there! I’m Aishwarya, An Enthusiastic Software Developer with a passion for solving complex problems and building innovative solutions. I hold a Bachelor’s Degree in Computer Science Engineering and have gained 5 years of Professional Experience working as Software Developer with global clients in Australia and the U.S. across top multinational companies like Cognizant and Mphasis.",
+    "Hi, I'm Aishwarya! A Master's student in Computer Science at Roosevelt University, passionate about user-centered solutions.",
   aboutMeCurrent:
-    "Currently, I am pursuing a Master’s degree in Computer Science, focusing on areas like Intelligent Systems, Advanced Algorithms, and Web-Base Databases. I am also enhancing my skills in Data Structures and Algorithms (DSA) while actively working on Machine Learning projects.",
+    "With 5+ years in tech, I’ve honed my skills in designing intuitive applications, fueling my deep interest in UX Research and Human-Computer Interaction. I love understanding users' needs to craft impactful designs.",
+  aboutMePersonal:
+    "Outside of work, I'm an animal lover, coffee enthusiast, and lifelong learner. Let’s connect and create something meaningful!",
 };
 
 const socialMediaLinks = [
-  {
-    name: "Github",
-    title: "Github",
-    link: "https://github.com/AishwaryaCodes",
-    fontAwesomeIcon: "fa-github",
-    backgroundColor: "#181717",
-  },
   {
     name: "LinkedIn",
     title: "LinkedIn",
     link: "https://www.linkedin.com/in/aishwarya-kundur-3454a6207/",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
+  },
+  {
+    name: "Github",
+    title: "Github",
+    link: "https://github.com/AishwaryaCodes",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   // {
   //   name: "YouTube",
@@ -58,27 +60,27 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
   },
-  {
-    name: "X-Twitter",
-    title: "X-Twitter",
-    link: "https://x.com/Akundur17",
-    fontAwesomeIcon: "fa-x-twitter",
-    backgroundColor: "#000000",
-  },
-  {
-    name: "Facebook",
-    title: "Facebook",
-    link: "https://www.facebook.com/aish165.kundur.17",
-    fontAwesomeIcon: "fa-facebook-f",
-    backgroundColor: "#1877F2",
-  },
-  {
-    name: "Instagram",
-    title: "Instagram",
-    link: "https://www.instagram.com/aish165_/?hl=en",
-    fontAwesomeIcon: "fa-instagram",
-    backgroundColor: "#E4405F",
-  },
+  // {
+  //   name: "X-Twitter",
+  //   title: "X-Twitter",
+  //   link: "https://x.com/Akundur17",
+  //   fontAwesomeIcon: "fa-x-twitter",
+  //   backgroundColor: "#000000",
+  // },
+  // {
+  //   name: "Facebook",
+  //   title: "Facebook",
+  //   link: "https://www.facebook.com/aish165.kundur.17",
+  //   fontAwesomeIcon: "fa-facebook-f",
+  //   backgroundColor: "#1877F2",
+  // },
+  // {
+  //   name: "Instagram",
+  //   title: "Instagram",
+  //   link: "https://www.instagram.com/aish165_/?hl=en",
+  //   fontAwesomeIcon: "fa-instagram",
+  //   backgroundColor: "#E4405F",
+  // },
 ];
 
 const technologiesIcon = [
@@ -280,20 +282,6 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Part-time: Student Ambassador",
-          company: "Roosevelt University, Office of Admissions",
-          company_url: "https://www.roosevelt.edu/",
-          duration: "April 2024 - Present",
-          location: "CHICAGO",
-          logo: "./uniImg.jpg",
-          roledescription: [
-            "Facilitated the admissions process and led campus tours at Roosevelt University, providing guidance to prospective students, addressing inquiries, and showcasing academic and student life opportunities.",
-          ],
-          skills:
-            "Communication Skills | Leadership | Public Speaking | Problem-Solving",
-          color: "#9b1578",
-        },
-        {
           title: "Programmer Analyst at Cognizant Technology Solutions",
           company: "Ernst and Young (EY) Auditing website",
           company_url:
@@ -325,6 +313,21 @@ const experience = {
           skills: "HTML | CSS | JavaScript | React.JS",
           color: "#fc1f20",
         },
+
+        {
+          title: "Part-time: Student Ambassador",
+          company: "Roosevelt University, Office of Admissions",
+          company_url: "https://www.roosevelt.edu/",
+          duration: "April 2024 - Present",
+          location: "CHICAGO",
+          logo: "./uniImg.jpg",
+          roledescription: [
+            "Facilitated the admissions process and led campus tours at Roosevelt University, providing guidance to prospective students, addressing inquiries, and showcasing academic and student life opportunities.",
+          ],
+          skills:
+            "Communication Skills | Leadership | Public Speaking | Problem-Solving",
+          color: "#9b1578",
+        },
       ],
     },
   ],
@@ -339,19 +342,19 @@ const volunteership = {
           volunteerTitle: "Volunteered at Greater Chicago Food Depository,",
           location: "McCormick Place Convention Center.",
           description:
-            "👉🏻 Volunteered at the Greater Chicago Food Depository and McCormick Place Convention Center, participating in the Food Rescue event to collect and distribute high-quality food, helping address community food insecurity.",
+            "👉🏻 Volunteeredat at the Greater Chicago Food Depository and McCormick Place Convention Center for the Food Rescue event, helping address food insecurity in the community",
         },
         {
           volunteerTitle: "Student Volunteer at Laker Union Club,",
           location: "Roosevelt University Chicago Campus.",
           description:
-            "👉🏻 Volunteered at the Laker Union Club, Roosevelt University, contributing to a community service project by creating no-sew fleece blankets for those in need.",
+            "👉🏻 Volunteered at the Laker Union Club, Roosevelt University, making no-sew fleece blankets for those in need.",
         },
         {
           volunteerTitle: "Programmer Chair at Girls Who Code,",
           location: "Roosevelt University Chicago Campus.",
           description:
-            "👉🏻 As Programming Chair at Girls Who Code, I develop and implement event schedules, manage budgets, recruit and oversee volunteers, and coordinate with other campus organizations. I also handle event marketing, evaluate event success, and report to leadership. Current event ideas include Boba and Boards and Arduino workshops.",
+            "👉🏻 As a Programming Chair at Girls Who Code, I manage events, budgets, volunteers, and marketing.",
         },
       ],
     },
@@ -406,25 +409,9 @@ const contactPageData = {
     title: "Get in Touch!",
     profile_image_path: "",
     description: [
-      "I specialize in Software Development, Web Development, Machine Learning, Python, React JS, and Open-Source Projects.",
-      "I'm currently seeking Spring 2025 internship opportunities in the USA. Let's connect, collaborate, or just chat, I'd love to hear from you!",
+      "Feel free to reach out for collaborations, projects, or just to say hello!",
+      "I'd love to hear from you! Reach me at: ",
     ],
-  },
-  addressSection: {
-    title: "Mailing Address",
-    subtitle: "3445 S Rhodes Ave, Chicago, IL 60616, Apt - 0705",
-    locality: "Chicago",
-    country: "USA",
-    region: "Chicago",
-    postalCode: "60616",
-    streetAddress: "S Rhodes Avenue",
-    avatar_image_path: "address_image.svg",
-    location_map_link:
-      "https://www.google.com/maps/place/3445+S+Rhodes+Ave,+Chicago,+IL+60616/@41.8315204,-87.6153648,17z/data=!4m6!3m5!1s0x880e2bf3eb172319:0xdd1eb9f1b756430!8m2!3d41.8315204!4d-87.6127899!16s%2Fg%2F11c4r4mnm2?entry=ttu",
-  },
-  phoneSection: {
-    title: "",
-    subtitle: "",
   },
 };
 
