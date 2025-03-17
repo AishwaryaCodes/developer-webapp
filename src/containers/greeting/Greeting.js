@@ -9,43 +9,45 @@ export default function Greeting(props) {
   const theme = props.theme;
   return (
     <Fade bottom duration={2000} distance="40px">
-      <div className="greet-main" id="greeting">
-        <div className="greeting-main">
-          <div className="greeting-text-div">
-            <div>
-              <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
-              </h1>
+      <div className="hero-section" id="greeting">
+        <div className="greet-main" id="greeting">
+          <div className="greeting-main">
+            <div className="greeting-text-div">
+              <div>
+                <h1 className="greeting-text" style={{ color: theme.text }}>
+                  {greeting.title}
+                </h1>
 
-              <div className="skills-header-div">
-                <Fade bottom duration={2000} distance="20px">
-                  <section className="aboutMe-text">
-                    <p
-                      className="greeting-text-p subTitle about-me-desc"
-                      style={{ color: theme.secondaryText }}
-                    >
-                      <div className="aboutIntro">{greeting.aboutMeIntro}</div>
-                      <div className="aboutCur">{greeting.aboutMeCurrent}</div>
-                      <div className="aboutMePersonal">
-                        {greeting.aboutMePersonal}
-                      </div>
-                    </p>
-                  </section>
+                <div className="skills-header-div">
+                  <Fade bottom duration={2000} distance="20px">
+                    <section className="aboutMe-text">
+                      <p
+                        className="greeting-text-p subTitle about-me-desc"
+                        style={{ color: theme.secondaryText }}
+                      >
+                        <div className="aboutCur">
+                          {greeting.aboutMeCurrent}
+                        </div>
+                        <div className="aboutIntro">
+                          {greeting.aboutMeIntro}
+                        </div>
+                      </p>
+                    </section>
 
-                  <section className="aboutMe-img">
+                    {/* <section className="aboutMe-img">
                     <img src="./aishPic.jpg" alt="Description of the image" />
-                  </section>
-                </Fade>
-              </div>
+                  </section> */}
+                  </Fade>
+                </div>
 
-              {/* <p
+                {/* <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {greeting.subTitle}
               </p> */}
-              {/* <SocialMedia theme={theme} /> */}
-              {/* <div className="resume-btn-div-home">
+                {/* <SocialMedia theme={theme} /> */}
+                {/* <div className="resume-btn-div-home">
                 <Button
                   text="View Resume"
                   newTab={true}
@@ -53,6 +55,7 @@ export default function Greeting(props) {
                   theme={theme}
                 />
               </div> */}
+              </div>
             </div>
           </div>
         </div>

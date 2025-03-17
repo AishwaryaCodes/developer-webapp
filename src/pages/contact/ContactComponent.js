@@ -53,14 +53,14 @@ class Contact extends Component {
                 </div>
 
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
+                {/* <div className="resume-btn-div">
                   <Button
                     text="View Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>

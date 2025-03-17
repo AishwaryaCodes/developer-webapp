@@ -23,12 +23,9 @@ const greeting = {
   portfolio_repository: "",
   githubProfile: "https://github.com/AishwaryaCodes",
   aboutTitle: "About Me!",
-  aboutMeIntro:
-    "Hi, I'm Aishwarya! A Master's student in Computer Science at Roosevelt University, passionate about user-centered solutions.",
   aboutMeCurrent:
-    "With 5+ years in tech, I’ve honed my skills in designing intuitive applications, fueling my deep interest in UX Research and Human-Computer Interaction. I love understanding users' needs to craft impactful designs.",
-  aboutMePersonal:
-    "Outside of work, I'm an animal lover, coffee enthusiast, and lifelong learner. Let’s connect and create something meaningful!",
+    "Building with MERN & Beyond | MSCS @Roosevelt | 4+ Yrs SDE & Creativity",
+  aboutMeIntro: "Code Create Scale",
 };
 
 const socialMediaLinks = [

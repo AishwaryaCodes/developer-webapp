@@ -6,9 +6,10 @@
 }
 .greet-main {
   width: 90%;
-  padding: 10px 10px;
-  margin: 0px auto;
+  padding: 40px 20px;
+  margin: 0 auto;
   margin-top: 6rem;
+  text-align: center;
 }
 
 .gretting-main {
@@ -31,11 +32,10 @@
 }
 
 .greeting-text {
-  font-size: 45px;
-  font-weight: 600;
-  line-height: 1.1;
-  font-family: "emoji";
-  margin: 0;
+  font-size: 3.6rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #53284f;
 }
 
 .about-me-text {
@@ -49,17 +49,31 @@
 }
 
 .greeting-text-p {
-  font-size: 40px;
-  line-height: 40px;
-  margin-right: 40px;
-  font-family: "Google Sans Medium";
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #5e4b56; /* Or use theme.secondaryText */
+}
+
+.aboutIntro {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #7e57c2;
+  letter-spacing: 1.2px;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
 }
 
 .about-me-desc {
-  margin: 2rem 0 0 0;
-
   .aboutCur {
-    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #5e4b56;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
   }
 }
 
@@ -71,7 +85,55 @@
   border-radius: 4%;
 }
 
+.hero-section {
+  position: relative;
+  background: linear-gradient(135deg, #f8f4fc 0%, #ffffff 100%);
+  padding: 6rem 2rem 8rem;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  animation: fadeInHero 1.5s ease;
+}
+
+/* Adding abstract background shape */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 150px;
+  height: 150px;
+  background: rgba(126, 87, 194, 0.1);
+  border-radius: 50%;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background: rgba(180, 128, 225, 0.1);
+  border-radius: 50%;
+}
+
 /* Media Query */
+
+@media (max-width: 768px) {
+  .aboutMe-img img {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .greeting-text {
+    font-size: 32px;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 1380px) {
   .greeting-text {
     /* font-size: 50px; */
@@ -107,5 +169,26 @@
     width: 100%;
     display: flex;
     justify-content: start;
+  }
+}
+
+@keyframes fadeInHero {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
   }
 }
