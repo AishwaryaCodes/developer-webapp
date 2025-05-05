@@ -6,6 +6,13 @@ import Button from "../../components/button/Button";
 export default function GithubRepoCard({ repo, theme }) {
   const backgroundImageStyle = {
     backgroundImage: `url(${repo.background})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    height: "12rem",
+    width: "100%",
+    borderTopLeftRadius: "1rem",
+    borderTopRightRadius: "1rem",
   };
 
   const handleClick = (projectLink) => {

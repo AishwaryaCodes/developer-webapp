@@ -24,7 +24,7 @@ const greeting = {
   githubProfile: "https://github.com/AishwaryaCodes",
   aboutTitle: "About Me!",
   aboutMeCurrent:
-    "Building with MERN & Beyond | MSCS @Roosevelt | 4+ Yrs SDE & Creativity",
+    " Building AI-powered Apps | MSCS @Roosevelt | GirlsWhoCode | 4+ Yrs SDE & Creativity",
   aboutMeIntro: "Code Create Scale",
 };
 

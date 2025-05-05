@@ -2,38 +2,29 @@
   "data": [
     {
       "id": "",
-      "name": "Task Manager Application | MERN Stack | MongoDB, Express.js, React.js, Node.js",
-      "url": "https://github.com/aishwaryacodes/Text-to-Image-Generator/blob/main/README.md",
-      "skills": "Developed a full-stack task manager application using the MERN stack, implementing CRUD functionality, authentication with JWT, and dynamic task filtering using React.js, resulting in improved task tracking and user productivity",
-      "background": "./hfai.jpeg",
-      "projectLink": "https://github.com/AishwaryaCodes/Text-to-Image-Generator",
+      "name": "Pharma Copilot Medical Diagnostics | Agentic AI | (FastAPI, React, FAISS)",
+      "url": "https://github.com/AishwaryaCodes/Pharma-Copilot-Medical-Diagnosis-Assistant",
+      "skills": " Pharma Copilot addresses this by offering an AI-powered assistant that streamlines diagnosis, retrieves similar past cases, and simulates analysis from cardiologist, pulmonologist, and psychologist perspectives, all in one place.",
+      "background": "./Agentic-AI.webp",
+      "projectLink": "https://github.com/AishwaryaCodes/Pharma-Copilot-Medical-Diagnosis-Assistant",
       "isFork": false
     },
     {
       "id": "",
-      "name": "Live FaceMask Detection | Deep Learning | Python",
-      "url": "https://aishwaryacodes.github.io/FaceMask-Detection-App/",
-      "skills": "Created a real-time face mask detection interface in a collaborative group project using Flask, TensorFlow, and OpenCV, delivering 95%+ accuracy for both image uploads and webcam streams via a pre-trained MobileNetV2 model",
-      "background": "./faceM.jpg",
-      "projectLink": "https://github.com/AishwaryaCodes/FaceMask-Detection-App",
+      "name": "Multi-Language Invoice Extractor | NLP | GenAI | Python | Gemini 1.5 Pro Vision",
+      "url": "https://github.com/AishwaryaCodes/InvoiceExtractor-Gemini-Pro",
+      "skills": "Engineered a Streamlit-based AI application that uses Google Gemini & Natural Language Processing capabilities to extract information from multi-language invoice images and answer custom user queries through interaction.",
+      "background": "./invoice.png",
+      "projectLink": "https://github.com/AishwaryaCodes/InvoiceExtractor-Gemini-Pro",
       "isFork": false
     },
     {
       "id": "",
-      "name": "Meal Finder | JavaScript | API Integration",
-      "url": "https://aishwaryacodes.github.io/Meal_Finder/",
-      "skills": "Optimized recipe search functionality using JavaScript and TheMealDB API, integrating debounced search, real-time results, and intuitive UI elements to reduce search time and improve recipe discovery accuracy by 90%",
-      "background": "./food.jpg",
-      "projectLink": "https://github.com/AishwaryaCodes/Meal_Finder",
-      "isFork": false
-    },
-    {
-      "id": "",
-      "name": "Movie-Recommender-App | Web Development | HTML, CSS, Python, API Integration",
-      "url": "https://aishwaryacodes.github.io/Movie-Recommender-App/",
-      "skills": "Built a movie recommendation interface using HTML, CSS, Streamlit, Python, and the TMDB API, showcasing asynchronous API integration and responsive UI design principles to enhance content discovery and increase user engagement by 40%",
-      "background": "./mov.jpg",
-      "projectLink": "https://github.com/AishwaryaCodes/Movie-Recommender-App",
+      "name": "Rapid Notes App | Full-Stack | Node.js, gRPC, SQLite",
+      "url": "https://github.com/AishwaryaCodes/Rapid_Notes_gRPC_SQLite",
+      "skills": "Built a note-taking app using Node.js (Express + gRPC) and SQLite, designing a layered architecture with REST gateway, gRPC microservice, and Protocol Buffers communication to enable scalable and modular backend development.",
+      "background": "./gg.png",
+      "projectLink": "https://github.com/AishwaryaCodes/Rapid_Notes_gRPC_SQLite",
       "isFork": false
     }
   ]
