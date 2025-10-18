@@ -2,7 +2,7 @@
 
 //SEO Related settings
 const seo = {
-  title: "Aishwarya's Portfolio",
+  title: "Aish's Portfolio",
   description:
     "Master's in Computer Science (Graduating May 2025) | 5+ Years of IT Experience | Web Developer | UX Researcher | Frontend Expert | Former Associate at Cognizant & Mphasis | Seeking Full-Time UI/UX Research Roles in 2025.",
   og: {
@@ -24,7 +24,7 @@ const greeting = {
   githubProfile: "https://github.com/AishwaryaCodes",
   aboutTitle: "About Me!",
   aboutMeCurrent:
-    " Building AI-powered Apps | MSCS @Roosevelt | GirlsWhoCode | 4+ Yrs SDE & Creativity",
+    "Software Engineer @Vital Ally | WomenInTech | 5+ years of Experience",
   aboutMeIntro: "Code Create Scale",
 };
 
